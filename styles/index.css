@@ -1,0 +1,53 @@
+body {min-width:320px;}
+body main {display:flex; flex-flow:column nowrap; align-items:center;}
+body main .product_title {color:#aaa; margin:5px 0; white-space:nowrap; text-overflow:clip;}
+body main .product_brand {font-weight:500;}
+body main .product_price {font-weight:600;}
+body main .product_price .discount {font-weight:700; color:#f00; margin-right:19px;}
+body main .wrap_20s {margin-bottom:61px;}
+body main .wrap_20s h1 {font-size:1.25rem; font-weight:600; margin:75px 0 11px;}
+body main .wrap_20s .container_20s {display:flex;}
+body main .wrap_20s .container_20s .brand_bg_20s {position:relative;}
+body main .wrap_20s .container_20s .brand_bg_20s .brand_bg_20s_img {background:url(../images/001.png) no-repeat center / cover; width:460px; height:527px; display:inline-block;}
+body main .wrap_20s .container_20s .brand_bg_20s .like {position:absolute; top:13px; left:416px; border:1px solid #000;width:32px; height:32px; border-radius:16px; background-color:#fff; padding:3px 2px;}
+body main .wrap_20s .container_20s .brand_bg_20s .like img {}
+body main .wrap_20s .container_20s .contents_20s {display:flex; flex-flow:column nowrap; justify-content:space-between; margin-left:41px;}
+body main .wrap_20s .container_20s .contents_20s .product_list_title_20s {}
+body main .wrap_20s .container_20s .contents_20s .product_list_title_20s h2 {font-size:1.5rem; font-weight:600; margin-bottom:9px;}
+body main .wrap_20s .container_20s .contents_20s .product_list_title_20s p {font-size:0.875rem;}
+body main .wrap_20s .container_20s .contents_20s .product_list_20s {display:flex;}
+body main .wrap_20s .container_20s .contents_20s .product_list_20s li {position:relative; margin-right:15px;}
+body main .wrap_20s .container_20s .contents_20s .product_list_20s li a > p {width:223px; height:262px; overflow:hidden; margin-bottom:15px;}
+body main .wrap_20s .container_20s .contents_20s .product_list_20s li a > p img {width:223px;}
+body main .wrap_20s .container_20s .contents_20s .product_list_20s li a .product_contents_20s {}
+body main .wrap_20s .container_20s .contents_20s .product_list_20s li a .product_contents_20s p {font-size:0.875rem;}
+body main .wrap_20s .container_20s .contents_20s .product_list_20s li a .product_contents_20s .product_brand {}
+body main .wrap_20s .container_20s .contents_20s .product_list_20s li a .product_contents_20s .product_title {}
+body main .wrap_20s .container_20s .contents_20s .product_list_20s li a .product_contents_20s .product_price {}
+body main .wrap_20s .container_20s .contents_20s .product_list_20s li a .product_contents_20s  .product_price .discount {font-weight:700; color:#f00; margin-right:19px;}
+body main .wrap_20s .container_20s .contents_20s .product_list_20s li .like {position:absolute; bottom:39px; right:0;}
+body main .wrap_20s .container_20s .contents_20s .product_list_20s li .like img {width:24px;}
+body main .girls_taste_wrap {margin-bottom:124px;}
+body main .girls_taste_wrap .girls_taste_title {display:flex; justify-content:space-between; margin-bottom:14px;}
+body main .girls_taste_wrap .girls_taste_title h1 {font-size:1.25rem; font-weight:600;}
+body main .girls_taste_wrap .girls_taste_title a {font-size:0.875rem;}
+body main .girls_taste_wrap .girls_taste_product_list_container {}
+body main .girls_taste_wrap .girls_taste_product_list_container .girls_taste_product_list {display:flex; width:1199px; justify-content:space-between;}
+body main .girls_taste_wrap .girls_taste_product_list_container .girls_taste_product_list li {width:195px; overflow:hidden; position:relative;}
+body main .girls_taste_wrap .girls_taste_product_list_container .girls_taste_product_list li a {}
+body main .girls_taste_wrap .girls_taste_product_list_container .girls_taste_product_list li a img {height:262px; margin-bottom:15px;}
+body main .girls_taste_wrap .girls_taste_product_list_container .girls_taste_product_list li a .girls_taste_product_contents {}
+body main .girls_taste_wrap .girls_taste_product_list_container .girls_taste_product_list li a .girls_taste_product_contents p {font-size:0.875rem;}
+body main .girls_taste_wrap .girls_taste_product_list_container .girls_taste_product_list li a .girls_taste_product_contents .product_brand {}
+body main .girls_taste_wrap .girls_taste_product_list_container .girls_taste_product_list li a .girls_taste_product_contents .product_title {}
+body main .girls_taste_wrap .girls_taste_product_list_container .girls_taste_product_list li a .girls_taste_product_contents .product_price {}
+body main .girls_taste_wrap .girls_taste_product_list_container .girls_taste_product_list li a .girls_taste_product_contents .product_price .discount {}
+body main .girls_taste_wrap .girls_taste_product_list_container .girls_taste_product_list li .like {position:absolute; bottom:39px; right:0;}
+body main .girls_taste_wrap .girls_taste_product_list_container .girls_taste_product_list li .like img {width:24px;}
+@media screen and (max-width:767px) {
+    body main .wrap_20s .container_20s .contents_20s {display:none;}
+    body main .girls_taste_wrap .girls_taste_product_list_container {width:430px; overflow:hidden;}
+    body main .girls_taste_wrap .girls_taste_product_list_container .girls_taste_product_list {display:flex; width:1199px; justify-content:flex-start;}
+    body main .girls_taste_wrap .girls_taste_product_list_container .girls_taste_product_list li {width:136px; margin-right:10px;}
+    body main .girls_taste_wrap .girls_taste_product_list_container .girls_taste_product_list li a img {position:relative; right:30px;}
+}
